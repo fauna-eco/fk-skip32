@@ -16,6 +16,7 @@
     Keith Bussell: Added python wrapping code 7/11/2008
  */
 
+#define PY_SSIZE_T_CLEAN /* Make "z#" use Py_ssize_t rather than int. */
 #include <Python.h>
 
 #if PY_MAJOR_VERSION >= 3
